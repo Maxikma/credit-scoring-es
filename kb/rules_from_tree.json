@@ -1,0 +1,206 @@
+[
+  {
+    "if": {
+      "debt_load": [
+        59.7,
+        null
+      ],
+      "income": [
+        null,
+        61.6
+      ]
+    },
+    "then": "high_risk",
+    "confidence": 1.0,
+    "support": 59
+  },
+  {
+    "if": {
+      "debt_load": [
+        null,
+        18.0
+      ],
+      "income": [
+        109.2,
+        148.2
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 0.85,
+    "support": 54
+  },
+  {
+    "if": {
+      "debt_load": [
+        null,
+        22.4
+      ],
+      "income": [
+        148.2,
+        null
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 1.0,
+    "support": 46
+  },
+  {
+    "if": {
+      "debt_load": [
+        33.5,
+        53.1
+      ],
+      "income": [
+        null,
+        100.2
+      ],
+      "age": [
+        32.4,
+        38.6
+      ]
+    },
+    "then": "medium_risk",
+    "confidence": 0.87,
+    "support": 30
+  },
+  {
+    "if": {
+      "debt_load": [
+        null,
+        18.0
+      ],
+      "income": [
+        68.6,
+        109.2
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 1.0,
+    "support": 28
+  },
+  {
+    "if": {
+      "debt_load": [
+        18.0,
+        22.4
+      ],
+      "income": [
+        68.6,
+        148.2
+      ],
+      "age": [
+        39.7,
+        null
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 0.88,
+    "support": 26
+  },
+  {
+    "if": {
+      "debt_load": [
+        22.4,
+        33.5
+      ],
+      "income": [
+        123.1,
+        null
+      ],
+      "age": [
+        null,
+        37.4
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 0.79,
+    "support": 24
+  },
+  {
+    "if": {
+      "debt_load": [
+        22.4,
+        33.5
+      ],
+      "income": [
+        123.1,
+        null
+      ],
+      "age": [
+        37.4,
+        null
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 0.92,
+    "support": 24
+  },
+  {
+    "if": {
+      "debt_load": [
+        18.0,
+        22.4
+      ],
+      "income": [
+        68.6,
+        148.2
+      ],
+      "age": [
+        null,
+        39.7
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 0.7,
+    "support": 23
+  },
+  {
+    "if": {
+      "debt_load": [
+        53.1,
+        59.7
+      ],
+      "income": [
+        null,
+        61.6
+      ]
+    },
+    "then": "high_risk",
+    "confidence": 0.81,
+    "support": 21
+  },
+  {
+    "if": {
+      "debt_load": [
+        null,
+        22.4
+      ],
+      "income": [
+        null,
+        68.6
+      ]
+    },
+    "then": "low_risk",
+    "confidence": 0.65,
+    "support": 20
+  },
+  {
+    "if": {
+      "debt_load": [
+        33.5,
+        53.1
+      ],
+      "income": [
+        null,
+        100.2
+      ],
+      "age": [
+        25.5,
+        32.4
+      ]
+    },
+    "then": "medium_risk",
+    "confidence": 0.65,
+    "support": 20
+  }
+]

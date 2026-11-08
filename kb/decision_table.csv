@@ -1,0 +1,9 @@
+rule,credit_history,employment,collateral,dependents,purpose,cause
+R1,bad,-,-,-,-,bad_history
+R2,good,stable,-,no,consumer,low_risk
+R3,none,stable,yes,-,-,medium_risk
+R4,none,unstable,no,-,-,high_risk
+R5,good,unstable,-,yes,-,manual
+R6,good,stable,no,yes,consumer,medium_risk
+R7,-,-,-,-,business,manual
+R8,good,stable,yes,no,real_estate,low_risk
